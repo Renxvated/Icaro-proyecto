@@ -1,0 +1,76 @@
+
+/* Clases personalizadas */
+.logo-img {
+  height: 60px;   /* probá 40–60px */
+  width: auto;
+  object-fit: contain;
+}
+
+.intro h2, .servicios h2, .contacto h2 {
+  color: #007BFF;
+  transition: color 0.3s;
+}
+
+.intro h2:hover, .servicios h2:hover, .contacto h2:hover {
+  color: #FF4500;
+}
+
+ul li {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.enlace a {
+  text-decoration: none;
+  color: #28a745;
+}
+
+.enlace a:hover {
+  text-decoration: underline;
+  color: #19692c;
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    padding: 0.5rem;
+  }
+}
+
+header .container {
+  flex-wrap: nowrap;
+}
+.img-oficina {
+  width: 300px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.img-oficina {
+  width: 350px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+main {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
