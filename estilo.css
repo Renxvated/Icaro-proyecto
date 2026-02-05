@@ -1,0 +1,48 @@
+/* Estilos básicos del proyecto */
+
+
+.logo-img {
+  height: 50px;
+  width: auto;
+}
+
+
+h2 {
+  color: #007BFF;
+}
+
+
+ul li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #28a745;
+}
+
+/* Imágenes */
+.img-oficina {
+  width: 300px;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
